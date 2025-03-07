@@ -1,4 +1,8 @@
-# Scelbi-8B Minicomputer
+# SCELBI-8B Minicomputer
+
+The SCELBI Minicomputer is considered to be the first general purpose computer to be offered to the general public.
+
+Reference the [SCELBI Computer Museum](https://www.scelbi.com/) website for documentation, images and software related to the SCELBI computer.
 
 ## PCBs
 
