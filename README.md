@@ -56,7 +56,39 @@ Coming soon
 
 ## Power Supply
 
-Coming soon
+The SCELBI requires a +5V power supply and a -12V power supply. The +5V line requires a maximum 1.5A with just the basic boards installed and no memory. The -9V line requires 100mA. The 8H uses 1K RAM boards and each one requires an additional 200mA on both the +5V and -9V lines. Because we're building an 8B SCELBI, the 4K RAM boards do not use -9V so we just need an additional 600mA on the +5 line for each RAM board that we have installed.
+
+Im summary, a fully stacked SCEBI 8B (without peripherals) requires 3.9A on the +5 line and 100mA on the -9 line. Because we'll be adding additional peripherals, I think it's safe to use a 6A +5 power supply and a 1.7A -12V power supply (adjusted to -9V). I will be using two Power-One power supplies in my case. You can also use a single one such as the [Power-One CP131-A](https://www.ebay.com/itm/226141595668).
+
+### Tools
+
+Basic tools will be required to make holes in the enclosure. I used a 3" hole saw drill bit to drill a hole for the fan. I also used a [1-11/64" chassis key punch](https://www.ebay.com/itm/267044392025) to make a hole for the main power connector. This tool is also used to make holes in the main SCELBI enclosure.
+
+### Parts
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| Bud Enclosure (12"x12"x3") | 1 | [Bud Industries AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) |
+| +5 6A Power Supply | 1 | [Power-One C5-6](https://www.ebay.com/itm/286241095332) |
+| -12 1.7A Power Supply | 1 | [Power-One HB12](https://www.ebay.com/itm/167299382045) |
+| 120V Fan | 1 | [Qualtek FAA1-08025NBMT31](https://www.digikey.com/en/products/detail/qualtek/FAA1-08025NBMT31/2599974) |
+| Fan Guard | 1 | [Qualtek 09080-G](https://www.digikey.com/en/products/detail/qualtek/09080-G/250523?so=90773917) |
+| Red Binding Post | 2 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09739/7393680) |
+| Black Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09740/7393681) |
+| Amphenol Connector | 1 | [Amphenol 86-CP4](https://www.ebay.com/itm/285970790977) |
+| Fuse Holder | 1 | [Littelfuse Inc. 82000000005](https://www.digikey.com/en/products/detail/littelfuse-inc/82000000005/653481) |
+| 750mA to 1A Fuse | 1 | [SCHURTER Inc. 0034.3773](https://www.digikey.com/en/products/detail/schurter-inc/0034-3773/1730487) |
+| Power Switch | 1 | [NKK Switches S1AWB](https://www.digikey.com/en/products/detail/nkk-switches/S1AWB/9698988) |
+| Cable Gland | 1 | Large enough to fit power cord |
+| Lamp Holder | 2 | Holders for lamps ([Amazon](https://www.amazon.com/dp/B08FBVRL8V)) |
+| Lamp | 2 | Any 5V lamp or LED will do |
+| Power Cord | 1 | A standard computer power cable |
+| Wire | N/A | 14AWG wire (~2ft) & 18AWG wire (~5ft) |
+| Hardware | N/A | Bolts to mount power supplies and fan |
+
+### Instructions
+
+Refer to the YouTube video for detailed assembly instructions.
 
 ## Cassette Interface Boards
 
