@@ -58,7 +58,7 @@ Coming soon
 
 The SCELBI requires a +5V power supply and a -12V power supply. The +5V line requires a maximum 1.5A with just the basic boards installed and no memory. The -9V line requires 100mA. The 8H uses 1K RAM boards and each one requires an additional 200mA on both the +5V and -9V lines. Because we're building an 8B SCELBI, the 4K RAM boards do not use -9V so we just need an additional 600mA on the +5 line for each RAM board that we have installed. The 8B also has a memory expansion board (750mA on +5V) and a ROM board (1.5A on +5V and 1.5A on -9V).
 
-In summary, a fully stacked SCEBI 8B (without peripherals) requires a _maximum_ of 5.4A on the +5 line and 1.6mA on the -9 line. Because we'll be adding additional peripherals, I think it's safe to use a 6A +5 power supply and a 1.7A -12V power supply (adjusted to -9V). I will be using two Power-One power supplies in my case. You can also use a single one such as the [Power-One CP131-A](https://www.ebay.com/itm/226141595668).
+In summary, a fully stacked SCEBI 8B (without peripherals) requires a _maximum_ of 5.4A on the +5 line and 1.6A on the -9 line. Because we'll be adding additional peripherals, I think it's safe to use a 6A +5 power supply and a 1.7A -12V power supply (adjusted to -9V). I will be using two Power-One power supplies in my case. You can also use a single one such as the [Power-One CP131-A](https://www.ebay.com/itm/226141595668).
 
 ### Tools
 
