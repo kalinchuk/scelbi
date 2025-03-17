@@ -91,6 +91,8 @@ Basic tools will be required to make holes in the enclosure. I used a 3" hole sa
 
 Refer to the YouTube video for detailed assembly instructions.
 
+*Important*: The 12V power supply R13 needs to be replaced with a 2W 4700K - 10K resistor. This will allow the voltage to be adjusted to the desired 9V. Also, for the 12V power supply, connect the + terminal to the ground binding post and the - terminal to the -9V binding post.
+
 ## Cassette Interface Boards
 
 Coming soon
