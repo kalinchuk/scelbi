@@ -82,6 +82,7 @@ Basic tools will be required to make holes in the enclosure. I used a 3" hole sa
 | Cable Gland | 1 | Large enough to fit power cord |
 | Lamp Holder | 2 | Holders for lamps ([Amazon](https://www.amazon.com/dp/B08FBVRL8V)) |
 | Lamp | 2 | Any 5V lamp or LED will do |
+| Rubber feet | 4 | [DigiKey](https://www.digikey.com/en/products/detail/3m/SJ-5523-BLACK/30833) |
 | Power Cord | 1 | A standard computer power cable |
 | Wire | N/A | 14AWG wire (~2ft) & 18AWG wire (~5ft) |
 | Hardware | N/A | Bolts to mount power supplies and fan |
