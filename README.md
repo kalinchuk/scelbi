@@ -75,7 +75,7 @@ Basic tools will be required to make holes in the enclosure. I used a 3" hole sa
 | Fan Guard | 1 | [Qualtek 09080-G](https://www.digikey.com/en/products/detail/qualtek/09080-G/250523?so=90773917) |
 | Red Binding Post | 2 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09739/7393680) |
 | Black Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09740/7393681) |
-| Amphenol Connector | 1 | [Amphenol 86-CP4](https://www.ebay.com/itm/285970790977) |
+| Amphenol Connector | 1 | [Amphenol 78-S4](https://www.ebay.com/itm/153626967601) |
 | Fuse Holder | 1 | [Littelfuse Inc. 82000000005](https://www.digikey.com/en/products/detail/littelfuse-inc/82000000005/653481) |
 | 750mA to 1A Fuse | 1 | [SCHURTER Inc. 0034.3773](https://www.digikey.com/en/products/detail/schurter-inc/0034-3773/1730487) |
 | Power Switch | 1 | [NKK Switches S1AWB](https://www.digikey.com/en/products/detail/nkk-switches/S1AWB/9698988) |
@@ -89,7 +89,7 @@ Basic tools will be required to make holes in the enclosure. I used a 3" hole sa
 
 ### Instructions
 
-Refer to the YouTube video for detailed assembly instructions.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=4Gl4igGJyTs) for detailed assembly instructions.
 
 *Important*: The 12V power supply R13 needs to be replaced with a 2W 4700K - 10K resistor. This will allow the voltage to be adjusted to the desired 9V. Also, for the 12V power supply, connect the + terminal to the ground binding post and the - terminal to the -9V binding post.
 
