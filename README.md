@@ -95,7 +95,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=4Gl4igGJyTs) for de
 
 Follow the following wiring diagram when wiring up the power supply. Be careful when working with high voltage lines.
 
-<img width="753" alt="Wiring diagram" src="https://github.com/user-attachments/assets/6daac7fa-4e89-45fe-8d34-344c44ecec35" />
+<img width="663" alt="Wiring diagram" src="https://github.com/user-attachments/assets/ec25b8b4-c335-4664-9e4f-ee872ca0ab41" />
 
 ## Cassette Interface Boards
 
