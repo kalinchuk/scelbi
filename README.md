@@ -18,38 +18,6 @@ The front panel is available at [www.kalinchuk.com](https://www.kalinchuk.com/pr
 
 If you would like to make your own front panel, you can upload the [CAD file](front_panel/cad/scelbi8b_without_text.iges) to [PCBWay](www.pcbway.com) and have them fabricate it for you.
 
-## Backplane
-
-Coming soon
-
-## Front Panel Board
-
-Coming soon
-
-## CPU Board
-
-Coming soon
-
-## DBB & Output Board
-
-Coming soon
-
-## Input Board
-
-Coming soon
-
-## Memory Expansion Board
-
-Coming soon
-
-## 4K RAM Board
-
-Coming soon
-
-## 4K ROM Board
-
-Coming soon
-
 ## Chassis
 
 The SCELBI 8B chassis was 12" x 10" x 3-1/2" plus the front panel. I have not found a chassis with those dimensions yet although you can get one custom made. The closest chassis that is on the open market is [BUD AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) which is 12" x 10" x 3" - it works quite well.
@@ -141,6 +109,38 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=4Gl4igGJyTs) for de
 Follow the following wiring diagram when wiring up the power supply. Be careful when working with high voltage lines.
 
 <img width="663" alt="Wiring diagram" src="https://github.com/user-attachments/assets/ec25b8b4-c335-4664-9e4f-ee872ca0ab41" />
+
+## Backplane
+
+Coming soon
+
+## Front Panel Board
+
+Coming soon
+
+## CPU Board
+
+Coming soon
+
+## DBB & Output Board
+
+Coming soon
+
+## Input Board
+
+Coming soon
+
+## Memory Expansion Board
+
+Coming soon
+
+## 4K RAM Board
+
+Coming soon
+
+## 4K ROM Board
+
+Coming soon
 
 ## Cassette Interface Boards
 
