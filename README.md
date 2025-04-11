@@ -112,7 +112,7 @@ These are the parts that I used. Feel free to use the same or go with something 
 
 ### Instructions
 
-Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for specifics.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=AvSoqtRcYo0) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for specifics.
 
 ## Backplane
 
