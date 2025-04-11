@@ -96,11 +96,12 @@ These are the parts that I used. Feel free to use the same or go with something 
 | -------- | ---- | ------------|
 | Bud Enclosure (12"x12"x3") | 1 | [Bud Industries AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) |
 | Edge Connectors | 18 | [EDAC 305-044-520-202](https://www.digikey.com/en/products/detail/edac-inc/305-044-520-202/107517) |
-| Card Guides | 18 | [Vector Electronics BR27D](https://www.digikey.com/en/products/detail/vector-electronics/BR27D/1886457) |
+| Card Guides | 18 | [Vector Electronics BR27D](https://www.digikey.com/en/products/detail/vector-electronics/BR27D/1886457) (comes in set of 2 so only 9 needed) |
 | Push Buttons | 3 | [E-Switch PS1024ARED](https://www.digikey.com/en/products/detail/e-switch/PS1024ARED/44577) |
 | Toggle Switches | 8 | [CIT Relay and Switch ANT11SEBQE](https://www.digikey.com/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360) |
 | Amphenol 78-S4 | 1 | [eBay](https://www.ebay.com/itm/153626967601) |
-| Amphenol 78-S11 | 14 | [eBay](https://www.ebay.com/itm/172869587250) | Amphenol 86-CP4 | 2 | [eBay](https://www.ebay.com/itm/285970790977) |
+| Amphenol 78-S11 | 14 | [eBay](https://www.ebay.com/itm/172869587250) |
+| Amphenol 86-CP4 | 2 | [eBay](https://www.ebay.com/itm/285970790977) |
 | Wrapping Wire | ~ 20-30' | [Blue Electronic Wire DM-30-1000](https://www.amazon.com/dp/B0BJ85C8CH) |
 | 14 AWG Wire | ~ 3' | Black, Red, Yellow |
 | Power Cable | ~ 3' | [Belden 8747](https://marvac.com/products/25-belden-8747-6-pair-22-gauge-unshielded-cable-25-foot-6pr-22awg) |
@@ -108,7 +109,7 @@ These are the parts that I used. Feel free to use the same or go with something 
 
 ### Instructions
 
-Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8B Assembly Instructions.pdf) for specifics.
+Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for specifics.
 
 ## Backplane
 
