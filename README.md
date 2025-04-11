@@ -65,6 +65,8 @@ Follow the following wiring diagram when wiring up the power supply. Be careful 
 
 ## Chassis
 
+<img width="600" alt="Enclosure" src="https://github.com/user-attachments/assets/8171e115-c577-46ef-a04e-bd4b1df90a7d"/>
+
 The SCELBI 8B chassis was 12" x 10" x 3-1/2" plus the front panel. I have not found a chassis with those dimensions yet although you can get one custom made. The closest chassis that is on the open market is [BUD AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) which is 12" x 10" x 3" - it works quite well.
 
 ### Files
