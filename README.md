@@ -16,7 +16,7 @@ Coming soon
 
 The front panel is available at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/scelbi-8b-front-panel).
 
-If you would like to make your own front panel, you can upload the [CAD file](front_panel/scelbi8b.iges) to [PCBWay](www.pcbway.com) and have them fabricate it for you.
+If you would like to make your own front panel, you can upload the [CAD file](front_panel/cad/scelbi8b_without_text.iges) to [PCBWay](www.pcbway.com) and have them fabricate it for you.
 
 ## Backplane
 
@@ -52,7 +52,50 @@ Coming soon
 
 ## Chassis
 
-Coming soon
+The SCELBI 8B chassis was 12" x 10" x 3-1/2" plus the front panel. I have not found a chassis with those dimensions yet although you can get one custom made. The closest chassis that is on the open market is [BUD AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) which is 12" x 10" x 3" - it works quite well.
+
+### Files
+
+Below you will find a list of files that you might find helpful in the construction of the chassis.
+
+[CAD files](front_panel/cad)
+
+[I/O template](chassis/rear_template)
+
+[Labels](front_panel/labels) (Use [StickyLife](https://www.stickylife.com/) to print)
+
+### Tools
+
+The following tools will be required for the assembly of the chassis:
+
+| Tool        | Purpose   |
+| ------------|-----------|
+| [Rotary Dremel](https://www.amazon.com/Milwaukee-2460-20-ROTARY-TOOL-ONLY/dp/B008XLLIPY) | Cutting out the holes for the backplane |
+| Drill & Bits | Drilling holes for switches and screws |
+| [1-11/64" Chassis Key Punch](https://www.ebay.com/itm/267044392025) | Punching out holes for the I/O and power ports |
+| Soldering Equipment | Soldering connectors and wires |
+
+### Parts
+
+These are the parts that I used. Feel free to use the same or go with something else.
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| Bud Enclosure (12"x12"x3") | 1 | [Bud Industries AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) |
+| Edge Connectors | 18 | [EDAC 305-044-520-202](https://www.digikey.com/en/products/detail/edac-inc/305-044-520-202/107517) |
+| Card Guides | 18 | [Vector Electronics BR27D](https://www.digikey.com/en/products/detail/vector-electronics/BR27D/1886457) |
+| Push Buttons | 3 | [E-Switch PS1024ARED](https://www.digikey.com/en/products/detail/e-switch/PS1024ARED/44577) |
+| Toggle Switches | 8 | [CIT Relay and Switch ANT11SEBQE](https://www.digikey.com/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360) |
+| Amphenol 78-S4 | 1 | [eBay](https://www.ebay.com/itm/153626967601) |
+| Amphenol 78-S11 | 14 | [eBay](https://www.ebay.com/itm/172869587250) | Amphenol 86-CP4 | 2 | [eBay](https://www.ebay.com/itm/285970790977) |
+| Wrapping Wire | ~ 20-30' | [Blue Electronic Wire DM-30-1000](https://www.amazon.com/dp/B0BJ85C8CH) |
+| 14 AWG Wire | ~ 3' | Black, Red, Yellow |
+| Power Cable | ~ 3' | [Belden 8747](https://marvac.com/products/25-belden-8747-6-pair-22-gauge-unshielded-cable-25-foot-6pr-22awg) |
+| Hardware | N/A | Bolts to mount backplane and card edge guides |
+
+### Instructions
+
+Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8B Assembly Instructions.pdf) for specifics.
 
 ## Power Supply
 
