@@ -114,13 +114,32 @@ These are the parts that I used. Feel free to use the same or go with something 
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=AvSoqtRcYo0) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for specifics.
 
-## Backplane
-
-Coming soon
-
 ## Front Panel Board
 
-Coming soon
+IMAGE
+
+The front panel board is the first board in the SCELBI-8B minicomputer set, although it's model number is 1104.
+
+### Parts
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 74L04    | 2    | [eBay](https://www.ebay.com/itm/315317055583) |
+| 7416     | 3    | [Jameco](https://www.jameco.com/z/DM7416N-National-Semiconductor-IC-7416-HEX-INVERTER-BUFFER-DRIVER-Open-Collector_49630.html) |
+| 7475     | 2    | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
+| 560 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W561JRC-Jameco-ValuePro-Resistor-Carbon-Film-560-Ohm-1-4-Watt-5-_690806.html) |
+| 1K Ohm Resistor | 30 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
+| 5V LED | 29 | [Jameco](https://www.jameco.com/z/5WR4-Y-T-SB-Jameco-ValuePro-LED-Super-Bright-Red-Water-Clear-5mm-T-1-3-4-630nm-12000mcd_2274831.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 2 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 3/8A 8AG Fuse | 1 | [eBay](https://www.ebay.com/itm/387477612501) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## CPU Board
 
