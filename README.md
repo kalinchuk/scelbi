@@ -116,7 +116,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=AvSoqtRcYo0) for de
 
 ## Front Panel Board
 
-IMAGE
+<img width="800" alt="Front Panel Board" src="https://github.com/user-attachments/assets/9244f3c4-c255-41e3-a43f-925428a2b5fb"/>
 
 The front panel board is the first board in the SCELBI-8B minicomputer set, although it's model number is 1104.
 
@@ -139,7 +139,7 @@ The front panel board is the first board in the SCELBI-8B minicomputer set, alth
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=fweK1kXFhk4) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## CPU Board
 
