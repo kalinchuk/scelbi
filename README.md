@@ -151,6 +151,10 @@ IMAGE
 
 The CPU board is the brains of the computer. It's the most complex board of the set and requires the most work to assemble and tune. A good oscilloscope, capable of capturing two separate waves simultaneously and measuring the wave frequency, will be required to tune the CPU board.
 
+### Tuning
+
+Refer to the manual for tuning instructions as it has a pretty detailed writeup on it. I think the [YouTube video](https://www.youtube.com/watch?v=oiwlf3kk3fg) is a good source for tuning instructions as well.
+
 ### Parts
 
 The parts list contains sources of each part but I actually used time-period or higher quality parts for my build. For example, the list contains potential sources of the ICs but I got the J version of each IC which has a ceramic package. The source for those was usually eBay.
@@ -190,7 +194,7 @@ The parts list contains sources of each part but I actually used time-period or 
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=oiwlf3kk3fg) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## DBB & Output Board
 
