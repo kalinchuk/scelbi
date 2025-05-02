@@ -147,7 +147,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=fweK1kXFhk4) for de
 
 ## CPU Board
 
-IMAGE
+<img width="800" alt="CPU Board" src="https://github.com/user-attachments/assets/1d1913ce-17c1-45f4-9d9c-cb06806426c1"/>
 
 The CPU board is the brains of the computer. It's the most complex board of the set and requires the most work to assemble and tune. A good oscilloscope, capable of capturing two separate waves simultaneously and measuring the wave frequency, will be required to tune the CPU board.
 
