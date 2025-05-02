@@ -4,6 +4,8 @@ The SCELBI Minicomputer is considered to be the first general purpose computer t
 
 Reference the [SCELBI Computer Museum](https://www.scelbi.com/) website for documentation, images and software related to the SCELBI computer.
 
+Note on parts: Unless specified, all resistors are 1/4W.
+
 ## PCBs
 
 The PCBs were re-created by tracing the original PCBs in KiCAD. PCB sets are available at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/scelbi-8b-pcb-set-8-boards). Additional RAM boards and other I/O boards are also available at www.kalinchuk.com.
@@ -128,7 +130,7 @@ The front panel board is the first board in the SCELBI-8B minicomputer set, alth
 | 7416     | 3    | [Jameco](https://www.jameco.com/z/DM7416N-National-Semiconductor-IC-7416-HEX-INVERTER-BUFFER-DRIVER-Open-Collector_49630.html) |
 | 7475     | 2    | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
 | 14-pin Socket | 5 | [Electronic Surplus : AUGAT - 714AG12D](https://www.electronicsurplus.com/augat-714ag12d-connector-ic-sockets-14-pin-package-of-10) |
-| 15-pin Socket | 2 | [Electronic Surplus : AUGAT - 716AG12D](https://www.electronicsurplus.com/augat-716ag12d-ic-socket-machined-16-pin-package-of-10) |
+| 16-pin Socket | 2 | [Electronic Surplus : AUGAT - 716AG12D](https://www.electronicsurplus.com/augat-716ag12d-ic-socket-machined-16-pin-package-of-10) |
 | 560 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W561JRC-Jameco-ValuePro-Resistor-Carbon-Film-560-Ohm-1-4-Watt-5-_690806.html) |
 | 1K Ohm Resistor | 30 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
 | 5V LED | 29 | [Jameco](https://www.jameco.com/z/5WR4-Y-T-SB-Jameco-ValuePro-LED-Super-Bright-Red-Water-Clear-5mm-T-1-3-4-630nm-12000mcd_2274831.html) |
@@ -145,7 +147,50 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=fweK1kXFhk4) for de
 
 ## CPU Board
 
-Coming soon
+IMAGE
+
+The CPU board is the brains of the computer. It's the most complex board of the set and requires the most work to assemble and tune. A good oscilloscope, capable of capturing two separate waves simultaneously and measuring the wave frequency, will be required to tune the CPU board.
+
+### Parts
+
+The parts list contains sources of each part but I actually used time-period or higher quality parts for my build. For example, the list contains potential sources of the ICs but I got the J version of each IC which has a ceramic package. The source for those was usually eBay.
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 4 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html)
+| 7402     | 1 | [Jameco](https://www.jameco.com/z/7402-Major-Brands-IC-7402-QUAD-2-INPUT-POSITIVE-NOR-GATE_49015.html) |
+| 7403     | 2 | [eBay](https://www.ebay.com/itm/256025349651) |
+| 7404     | 4 | [Jameco](https://www.jameco.com/z/7404-Major-Brands-IC-7404-Hex-Inverter-Six-Independent-Inverters-DIP-14_49040.html) |
+| 74L04    | 2 | [eBay](https://www.ebay.com/itm/315317055583) |
+| 7410     | 2 | [Jameco](https://www.jameco.com/z/7410-Major-Brands-IC-7410-Triple-3-Input-Positive-NAND-Gate_49189.html) |
+| 7420     | 1 | [Jameco](https://www.jameco.com/z/7420-Major-Brands-IC-7420-DUAL-4-INPUT-NAND-GATE_50008.html) |
+| 7442     | 1 | [Jameco](https://www.jameco.com/z/7442-Major-Brands-IC-7442-4-LINE-BCD-to-10-LINE-DECIMAL-DECODER_50374.html) |
+| 7474     | 3 | [Jameco](https://www.jameco.com/z/7474-Major-Brands-IC-7474-DUAL-D-TYPE-FLIP-FLOP_50551.html) |
+| 7476     | 1 | [Jameco](https://www.ebay.com/itm/176866116165) |
+| 74121    | 5 | [Jameco](https://www.jameco.com/z/74121-Major-Brands-IC-74121-MONOSTABLE-MULTIVIBRATOR_49322.html)
+| Intel 8008 | 1 | [eBay](https://www.ebay.com/itm/135002532400) |
+| 14-pin Socket | 25 | [Electronic Surplus : AUGAT - 714AG12D](https://www.electronicsurplus.com/augat-714ag12d-connector-ic-sockets-14-pin-package-of-10) |
+| 16-pin Socket | 3 | [Electronic Surplus : AUGAT - 716AG12D](https://www.electronicsurplus.com/augat-716ag12d-ic-socket-machined-16-pin-package-of-10) |
+| 1K Ohm Resistor | 8 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
+| 3.3K Ohm Resistor | 9 | [Jameco](https://www.jameco.com/z/CF1-4W332JRC-Jameco-ValuePro-Resistor-Carbon-Film-3-3k-Ohm-1-4-Watt-5-_690988.html) |
+| 10K Ohm Resistor | 18 | [Jameco](https://www.jameco.com/z/RC0410K0JT-Jameco-ValuePro-10k-Ohm-Resistor-5-1-4-Watt-Carbon-Film-Axial_691104.html) |
+| 33K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/RC0433K0JT-Jameco-ValuePro-Resistor-Carbon-Film-33k-Ohm-1-4-Watt-5-_691227.html) |
+| 5K Trimpot | 4 | [DigiKey](https://www.digikey.com/en/products/detail/bourns-inc/3006P-1-502/83390) |
+| 1N914 Diode | 9 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N914/978749) |
+| 2N2907 Trans. | 1 | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/2N2907/16560083) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 7 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 330 pF Disk Cap. | 4 | [Jameco](https://www.jameco.com/z/DC330-50-Y5V-James-Electronics-Ceramic-Disc-Capacitor-330pF-50-VDC-10-4mm-Body-Diameter_2301487.html)
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 12.0V Zener (NTE5127A) | 1 | [eBay](https://www.ebay.com/itm/234933379025) |
+| 3/4A 8AG Fuse | 1 | [eBay](https://www.ebay.com/itm/325161801779) |
+| 1/8A 8AG Fuse | 1 | [eBay](https://www.ebay.com/itm/165757392783) |
+| Fuse Clip | 4 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## DBB & Output Board
 
