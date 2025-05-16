@@ -185,7 +185,7 @@ The parts list contains sources of each part but I actually used time-period or 
 | 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
 | 0.1 uF Disk Cap. | 7 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
 | 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
-| 330 pF Disk Cap. | 4 | [Jameco](https://www.jameco.com/z/DC330-50-Y5V-James-Electronics-Ceramic-Disc-Capacitor-330pF-50-VDC-10-4mm-Body-Diameter_2301487.html)
+| 330 pF Disk Cap. | 4 | [Jameco](https://www.jameco.com/z/DC330-50-Y5V-James-Electronics-Ceramic-Disc-Capacitor-330pF-50-VDC-10-4mm-Body-Diameter_2301487.html) |
 | 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
 | 12.0V Zener (NTE5127A) | 1 | [eBay](https://www.ebay.com/itm/234933379025) |
 | 3/4A 8AG Fuse | 1 | [eBay](https://www.ebay.com/itm/325161801779) |
@@ -198,7 +198,45 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=oiwlf3kk3fg) for de
 
 ## DBB & Output Board
 
-Coming soon
+IMAGE
+
+The DBB & Output board controls the flow of data out of the computer. The board buffers data going out and then strobes the strobe line, for the specific output port, when data is ready to be released.
+
+### Parts
+
+The parts list contains sources of each part but I actually used time-period or higher quality parts for my build. For example, the list contains potential sources of the ICs but I got the J version of each IC which has a ceramic package. The source for those was usually eBay.
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 2 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html)
+| 7402     | 4 | [Jameco](https://www.jameco.com/z/7402-Major-Brands-IC-7402-QUAD-2-INPUT-POSITIVE-NOR-GATE_49015.html) |
+| 7416     | 2 | [Jameco](https://www.jameco.com/z/DM7416N-National-Semiconductor-IC-7416-HEX-INVERTER-BUFFER-DRIVER-Open-Collector_49630.html) |
+| 7417     | 2 | [Jameco](https://www.jameco.com/z/SN7417N-Texas-Instruments-IC-7417-HEX-BUFFER-DRIVER_49728.html) |
+| 7442     | 4 | [Jameco](https://www.jameco.com/z/7442-Major-Brands-IC-7442-4-LINE-BCD-to-10-LINE-DECIMAL-DECODER_50374.html) |
+| 7475     | 4 |  |
+| 14-pin Socket | 10 | [Electronic Surplus : AUGAT - 714AG12D](https://www.electronicsurplus.com/augat-714ag12d-connector-ic-sockets-14-pin-package-of-10) |
+| 16-pin Socket | 8 | [Electronic Surplus : AUGAT - 716AG12D](https://www.electronicsurplus.com/augat-716ag12d-ic-socket-machined-16-pin-package-of-10) |
+| 1K Ohm Resistor | 54 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 3 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 2 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 1A 8AG Fuse | 1 | [eBay](https://www.ebay.com/itm/175020931101) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+
+### Bugs
+
+There appears to be a bug in the DBB & Output card. The trace that connects R33, R30, R27, R24, R34, R31, R28, R25 and C4 is the +5 net (according to the schematic) but it's not connected to the +5 trace on the PCB.
+
+IMAGE
+
+The original boards seem to overlook this bug as it appears to be non-critical but I decided to run a jumper wire from that trace to the +5 net.
+
+IMAGE
 
 ## Input Board
 
