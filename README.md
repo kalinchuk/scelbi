@@ -213,7 +213,7 @@ The parts list contains sources of each part but I actually used time-period or 
 | 7416     | 2 | [Jameco](https://www.jameco.com/z/DM7416N-National-Semiconductor-IC-7416-HEX-INVERTER-BUFFER-DRIVER-Open-Collector_49630.html) |
 | 7417     | 2 | [Jameco](https://www.jameco.com/z/SN7417N-Texas-Instruments-IC-7417-HEX-BUFFER-DRIVER_49728.html) |
 | 7442     | 4 | [Jameco](https://www.jameco.com/z/7442-Major-Brands-IC-7442-4-LINE-BCD-to-10-LINE-DECIMAL-DECODER_50374.html) |
-| 7475     | 4 |  |
+| 7475     | 4 | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
 | 14-pin Socket | 10 | [Electronic Surplus : AUGAT - 714AG12D](https://www.electronicsurplus.com/augat-714ag12d-connector-ic-sockets-14-pin-package-of-10) |
 | 16-pin Socket | 8 | [Electronic Surplus : AUGAT - 716AG12D](https://www.electronicsurplus.com/augat-716ag12d-ic-socket-machined-16-pin-package-of-10) |
 | 1K Ohm Resistor | 54 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
