@@ -198,7 +198,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=oiwlf3kk3fg) for de
 
 ## DBB & Output Board
 
-IMAGE
+<img width="800" alt="DBB & Output Board" src="https://github.com/user-attachments/assets/0cc6101f-a09a-49f2-a407-c06ca4ff0e04"/>
 
 The DBB & Output board controls the flow of data out of the computer. The board buffers data going out and then strobes the strobe line, for the specific output port, when data is ready to be released.
 
@@ -232,11 +232,11 @@ Refer to the [YouTube video]() for detailed assembly instructions. Reference the
 
 There appears to be a bug in the DBB & Output card. The trace that connects R33, R30, R27, R24, R34, R31, R28, R25 and C4 is the +5 net (according to the schematic) but it's not connected to the +5 trace on the PCB.
 
-IMAGE
+<img width="400" alt="DBB Bug" src="https://github.com/user-attachments/assets/0f95a7c8-e1c0-4441-99eb-aac187207cdb"/>
 
 The original boards seem to overlook this bug as it appears to be non-critical but I decided to run a jumper wire from that trace to the +5 net.
 
-IMAGE
+<img width="400" alt="DBB Bug Fix" src="https://github.com/user-attachments/assets/f04d01dd-7aa7-40e8-b0b4-51d25d405cfc"/>
 
 ## Input Board
 
