@@ -226,7 +226,7 @@ The parts list contains sources of each part but I actually used time-period or 
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=k7UnR6UNYbQ) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ### Bugs
 
@@ -240,7 +240,29 @@ The original boards seem to overlook this bug as it appears to be non-critical b
 
 ## Input Board
 
-Coming soon
+IMAGE
+
+The input board controls the data coming into the computer and uses multiplexers to select the input port to read.
+
+### Parts
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 1 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html)
+| 7404     | 1 | [Jameco](https://www.jameco.com/z/7404-Major-Brands-IC-7404-Hex-Inverter-Six-Independent-Inverters-DIP-14_49040.html) |
+| 7410     | 1 | [Jameco](https://www.jameco.com/z/7410-Major-Brands-IC-7410-Triple-3-Input-Positive-NAND-Gate_49189.html) |
+| 74151    | 8 | [Jameco](https://www.jameco.com/z/74151APC-Fairchild-onsemi-IC-74151-DATA-SELECTOR-MULTIPLEXER_49525.html) |
+| 10K Ohm Resistor | 65 | [Jameco](https://www.jameco.com/z/RC0410K0JT-Jameco-ValuePro-10k-Ohm-Resistor-5-1-4-Watt-Carbon-Film-Axial_691104.html) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 2 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 2 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 3/8A 8AG Fuse | 1 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-3-8/264563) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## Memory Expansion Board
 
