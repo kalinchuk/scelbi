@@ -240,7 +240,7 @@ The original boards seem to overlook this bug as it appears to be non-critical b
 
 ## Input Board
 
-IMAGE
+<img width="800" alt="Input Board" src="https://github.com/user-attachments/assets/f18f5153-cae0-4f20-bd4a-82e9c48872a7"/>
 
 The input board controls the data coming into the computer and uses multiplexers to select the input port to read.
 
