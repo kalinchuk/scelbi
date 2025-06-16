@@ -262,11 +262,30 @@ The input board controls the data coming into the computer and uses multiplexers
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=-d9uxNrD9ss) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## Memory Expansion Board
 
-Coming soon
+IMAGE
+
+The memory expansion board contains memory address logic for selecting the correct page of memory. This board enables the SCELBI 8B to use up to 16KB of RAM.
+
+### Parts
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7417     | 1 | [Jameco](https://www.jameco.com/z/SN7417N-Texas-Instruments-IC-7417-HEX-BUFFER-DRIVER_49728.html) |
+| 7442     | 9 | [Jameco](https://www.jameco.com/z/7442-Major-Brands-IC-7442-4-LINE-BCD-to-10-LINE-DECIMAL-DECODER_50374.html) |
+| 10K Ohm Resistor | 67 | [Jameco](https://www.jameco.com/z/RC0410K0JT-Jameco-ValuePro-10k-Ohm-Resistor-5-1-4-Watt-Carbon-Film-Axial_691104.html) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 3 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 1-1/2A 8AG Fuse | 1 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-1-1-2/264552) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## 4K RAM Board
 
