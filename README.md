@@ -266,7 +266,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=-d9uxNrD9ss) for de
 
 ## Memory Expansion Board
 
-IMAGE
+<img width="800" alt="Memory Expansion Board" src="https://github.com/user-attachments/assets/055b4dfc-f498-4d46-a5fb-32ae1a0b6c2b"/>
 
 The memory expansion board contains memory address logic for selecting the correct page of memory. This board enables the SCELBI 8B to use up to 16KB of RAM.
 
