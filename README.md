@@ -61,7 +61,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=4Gl4igGJyTs) for de
 
 *Important*: The 12V power supply R13 needs to be replaced with a 2W 4700K - 10K resistor. This will allow the voltage to be adjusted to the desired 9V. Also, for the 12V power supply, connect the + terminal to the ground binding post and the - terminal to the -9V binding post.
 
-Follow the following wiring diagram when wiring up the power supply. Be careful when working with high voltage lines.
+Follow the following wiring diagram when wiring up the power supply. *Also, connect Earth to common ground*. Be careful when working with high voltage lines.
 
 <img width="663" alt="Wiring diagram" src="https://github.com/user-attachments/assets/ec25b8b4-c335-4664-9e4f-ee872ca0ab41" />
 
