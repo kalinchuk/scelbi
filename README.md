@@ -144,6 +144,12 @@ The front panel board is the first board in the SCELBI-8B minicomputer set, alth
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=fweK1kXFhk4) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
+### Bugs
+
+The first version of the front panel board had Z6 pin 8 connected to ground. That trace needs to be cut. This is fixed in later versions.
+
+<img width="400" alt="Front Panel Bug" src="https://github.com/user-attachments/assets/21315871-9aef-4a2b-8a8c-b448b586a530"/>
+
 ## CPU Board
 
 <img width="800" alt="CPU Board" src="https://github.com/user-attachments/assets/339f00da-0ebd-4b89-9ca8-cadc739ccb0e"/>
@@ -194,12 +200,6 @@ The parts list contains sources of each part but I actually used time-period or 
 ### Instructions
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=oiwlf3kk3fg) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
-
-### Bugs
-
-The first version of the front panel board had Z6 pin 8 connected to ground. That trace needs to be cut. This is fixed in later versions.
-
-<img width="400" alt="Front Panel Bug" src="https://github.com/user-attachments/assets/21315871-9aef-4a2b-8a8c-b448b586a530"/>
 
 ## DBB & Output Board
 
@@ -290,7 +290,7 @@ The memory expansion board contains memory address logic for selecting the corre
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=2aKlp8RueaE) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## 4K RAM Board
 
