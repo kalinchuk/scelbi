@@ -69,7 +69,6 @@ Follow the following wiring diagram when wiring up the power supply. **Also, con
 
 <img width="800" alt="Enclosure" src="https://github.com/user-attachments/assets/8171e115-c577-46ef-a04e-bd4b1df90a7d"/>
 
-
 The SCELBI 8B chassis was 12" x 10" x 3-1/2" plus the front panel. I have not found a chassis with those dimensions yet although you can get one custom made. The closest chassis that is on the open market is [BUD AC-413](https://www.digikey.com/en/products/detail/bud-industries/AC-413/386939) which is 12" x 10" x 3" - it works quite well.
 
 ### Files
@@ -195,6 +194,12 @@ The parts list contains sources of each part but I actually used time-period or 
 ### Instructions
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=oiwlf3kk3fg) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+
+### Bugs
+
+The first version of the front panel board had Z6 pin 8 connected to ground. That trace needs to be cut. This is fixed in later versions.
+
+<img width="400" alt="Front Panel Bug" src="https://github.com/user-attachments/assets/21315871-9aef-4a2b-8a8c-b448b586a530"/>
 
 ## DBB & Output Board
 
