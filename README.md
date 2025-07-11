@@ -294,7 +294,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=2aKlp8RueaE) for de
 
 ## 4K RAM Board
 
-IMAGE
+<img width="800" alt="RAM Board" src="https://github.com/user-attachments/assets/fb493a11-f5f8-479f-9304-cb7807dca72e"/>
 
 The RAM board supports up to 4KB of memory. The SCELBI-8B will accept up to four of these RAM boards (for a total of 16KB of memory). 12KB of RAM (3 RAM boards) and 4KB of ROM is the typical setup.
 
