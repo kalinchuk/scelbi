@@ -315,7 +315,7 @@ The RAM board supports up to 4KB of memory. The SCELBI-8B will accept up to four
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://youtu.be/759pWHT4bfM) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## 4K ROM Board
 
