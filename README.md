@@ -319,7 +319,7 @@ Refer to the [YouTube video](https://youtu.be/759pWHT4bfM) for detailed assembly
 
 ## 4K ROM Board
 
-IMAGE
+<img width="800" alt="ROM Board" src="https://github.com/user-attachments/assets/f625f640-6337-4615-9f56-a8053c928de0"/>
 
 The ROM board supports up to 4KB of ROM chips. The board accepts up to 16 1602 or 1702 PROMs. The SCELBI 8B ROMs that can be used to flash each PROM can be found [here](https://www.scelbi.com/software).
 
