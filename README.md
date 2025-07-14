@@ -319,7 +319,26 @@ Refer to the [YouTube video](https://youtu.be/759pWHT4bfM) for detailed assembly
 
 ## 4K ROM Board
 
-Coming soon
+IMAGE
+
+The ROM board supports up to 4KB of ROM chips. The board accepts up to 16 1602 or 1702 PROMs. The SCELBI 8B ROMs that can be used to flash each PROM can be found [here](https://www.scelbi.com/software).
+
+### Parts
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 1602 or 1702 PROM | 1-16 | [eBay](https://www.ebay.com/itm/234969999718) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 16 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 12.0V Zener (NTE5127A) | 1 | [eBay](https://www.ebay.com/itm/234933379025) |
+| 1-1/2A 8AG Fuse | 2 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-1-1-2/264552) |
+| Fuse Clip | 4 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## Cassette Interface Boards
 
