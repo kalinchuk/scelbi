@@ -350,6 +350,10 @@ I [assembled a 1702 EPROM programmer]() that Martin Eberhard designed. If you're
 
 <img width="800" alt="1702 Programmer Inside" src="https://github.com/user-attachments/assets/8c0ecfe0-f2e0-46cc-b102-ae5d1b7c7d9a"/>
 
+## TTY Interface Board
+
+Coming soon
+
 ## Cassette Interface Boards
 
 Coming soon
