@@ -340,6 +340,16 @@ The ROM board supports up to 4KB of ROM chips. The board accepts up to 16 1602 o
 
 Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
+### PROMs & Programming
+
+The SCELBI computer accepts 16 1702 EPROMs which you can download from the [SCELBI](https://scelbi.com/software) website. These EPROM Intel HEX files can be programmed to 16 1702 EPROMs and inserted into the ROM board.
+
+I [assembled a 1702 EPROM programmer]() that Martin Eberhard designed. If you're interested in building this programmer, contact Martin at mfeberhard@gmail.com. You can also find the latest manual for it [here](literature/ME1702A Manual Complete.pdf). I used this programmer to program my 1702s with the SCELBI PROM data.
+
+<img width="800" alt="1702 Programmer Top" src="https://github.com/user-attachments/assets/bf3575c3-be14-403e-9389-b4d71b17d6e1"/>
+
+<img width="800" alt="1702 Programmer Inside" src="https://github.com/user-attachments/assets/8c0ecfe0-f2e0-46cc-b102-ae5d1b7c7d9a"/>
+
 ## Cassette Interface Boards
 
 Coming soon
