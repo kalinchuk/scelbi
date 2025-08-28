@@ -389,7 +389,7 @@ Refer to the [YouTube video]() for detailed assembly instructions. Reference the
 
 ### Serial Interface
 
-Because of the way the SCELBI software sends and receives data bits (bit bashing), it's possible to convert the bits to serial using a simple latch and a serial tranceiver (MAX232). You can find the schematics for a SCELBI serial interface and the Gerber file for the PCB [here](https://github.com/agentorange96/SCELBI/tree/main/SCELBI-TTY-Interface).
+Because of the way the SCELBI software sends and receives data bits (bit banging), it's possible to convert the bits to serial using a simple latch and a serial tranceiver (MAX232). You can find the schematics for a SCELBI serial interface and the Gerber file for the PCB [here](https://github.com/agentorange96/SCELBI/tree/main/SCELBI-TTY-Interface).
 
 The nice thing about the above serial board is that it's a direct replacement of the TTY board. In my build, I actually have both the TTY and serial boards in one enclosure with a switch to switch between TTY and serial. The switch just toggles the power for each board. It works quite well.
 
