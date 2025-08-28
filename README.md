@@ -392,6 +392,25 @@ The TTY interface board is used to connect the SCELBI to a teletype. To use this
 | Black Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09740/7393681) |
 | Hardware | N/A | Screws, bolts, etc. |
 
+### Connections
+
+| Edge Connection | External Connection |
+| ----------------|---------------------|
+| A-A | +5V |
+| A-C | GND |
+| A-E | -9V |
+| A-K | S1-11 |
+| A-L | S1-3 |
+| A-M | S1-1 |
+| A-N | S1-7 |
+| A-P | S1-9 |
+| A-R | P3-8 |
+| A-V | P2-9 |
+| A-W | P2-1 |
+| A-X | P1-1 |
+| A-Y | P1-9 |
+| A-Z | S1-5 |
+
 ### Instructions
 
 Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
