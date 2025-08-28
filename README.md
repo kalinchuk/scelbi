@@ -413,7 +413,7 @@ The TTY interface board is used to connect the SCELBI to a teletype. To use this
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=RO9unKAMzuo) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ### Serial Interface
 
