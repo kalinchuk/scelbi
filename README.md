@@ -352,7 +352,45 @@ I [assembled a 1702 EPROM programmer](https://www.youtube.com/watch?v=S2KC_Ulbl8
 
 ## TTY Interface Board
 
-Coming soon
+IMAGE
+
+The TTY interface board is used to connect the SCELBI to a teletype. To use this board, the monitor ROMS (60-63), TTY ROM (76) and Cassette ROM (77) will be required.
+
+### Parts
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 2 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html) |
+| 7475     | 2    | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
+RESISTORS
+| 120 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W121JRC-Jameco-ValuePro-Resistor-Carbon-Film-120-Ohm-1-4-Watt-5-_690646.html) |
+| 330 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/RC04330EJT-Jameco-ValuePro-Resistor-Carbon-Film-330-Ohm-1-4-Watt-5-_690742.html) |
+| 470 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W471JRC-Jameco-ValuePro-Resistor-Carbon-Film-470-Ohm-1-4-Watt-5-_690785.html) |
+| 1K Ohm Resistor | 4 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
+| 2K Ohm Resistor | 2 | [Jameco](https://www.jameco.com/z/CF1-4W202JRC-Jameco-ValuePro-Resistor-Carbon-Film-2k-Ohm-1-4-Watt-5-_690937.html) |
+| 5.6K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W562JRC-Jameco-ValuePro-Resistor-Carbon-Film-5-6k-Ohm-1-4-Watt-5-_691041.html) |
+| 6.8K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W682JRC-Jameco-ValuePro-Resistor-Carbon-Film-6-8k-Ohm-1-4-Watt-5-_691067.html) |
+| 10K Ohm Resistor | 2 | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265) |
+| 10 uF Ele. Cap. | 1 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 2N2222 Trans. | 1 | [DigiKey](https://www.digikey.com/en/products/detail/stmicroelectronics/2N2222/654412) |
+| 2N2907 Trans. | 2 | [DigiKey](https://www.digikey.com/en/products/detail/rochester-electronics-llc/2N2907/12094713) |
+| 1N914 Diode | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N914/978749) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 12.0V Zener (NTE5127A) | 1 | [eBay](https://www.ebay.com/itm/234933379025) |
+| 3/4A 8AG Fuse | 2 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-1-1-2/264552) |
+| Fuse Clip | 4 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+
+### Serial Interface
+
+Because of the way the SCELBI software sends and receives data bits (bit bashing), it's possible to convert the bits to serial using a simple latch and a serial tranceiver (MAX232). You can find the schematics for a SCELBI serial interface and the Gerber file for the PCB [here](https://github.com/agentorange96/SCELBI/tree/main/SCELBI-TTY-Interface).
+
+The nice thing about the above serial board is that it's a direct replacement of the TTY board. In my build, I actually have both the TTY and serial boards in one enclosure with a switch to switch between TTY and serial. The switch just toggles the power for each board. It works quite well.
 
 ## Cassette Interface Boards
 
