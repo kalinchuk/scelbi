@@ -362,7 +362,6 @@ The TTY interface board is used to connect the SCELBI to a teletype. To use this
 | -------- | ---- | ------------|
 | 7400     | 2 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html) |
 | 7475     | 2    | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
-RESISTORS
 | 120 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W121JRC-Jameco-ValuePro-Resistor-Carbon-Film-120-Ohm-1-4-Watt-5-_690646.html) |
 | 330 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/RC04330EJT-Jameco-ValuePro-Resistor-Carbon-Film-330-Ohm-1-4-Watt-5-_690742.html) |
 | 470 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W471JRC-Jameco-ValuePro-Resistor-Carbon-Film-470-Ohm-1-4-Watt-5-_690785.html) |
