@@ -176,7 +176,7 @@ The parts list contains sources of each part but I actually used time-period or 
 | 7442     | 1 | [Jameco](https://www.jameco.com/z/7442-Major-Brands-IC-7442-4-LINE-BCD-to-10-LINE-DECIMAL-DECODER_50374.html) |
 | 7474     | 3 | [Jameco](https://www.jameco.com/z/7474-Major-Brands-IC-7474-DUAL-D-TYPE-FLIP-FLOP_50551.html) |
 | 7476     | 1 | [Jameco](https://www.ebay.com/itm/176866116165) |
-| 74121    | 5 | [Jameco](https://www.jameco.com/z/74121-Major-Brands-IC-74121-MONOSTABLE-MULTIVIBRATOR_49322.html)
+| 74121    | 5 | [Jameco](https://www.jameco.com/z/74121-Major-Brands-IC-74121-MONOSTABLE-MULTIVIBRATOR_49322.html) |
 | Intel 8008 | 1 | [eBay](https://www.ebay.com/itm/135002532400) |
 | 14-pin Socket | 25 | [Electronic Surplus : AUGAT - 714AG12D](https://www.electronicsurplus.com/augat-714ag12d-connector-ic-sockets-14-pin-package-of-10) |
 | 16-pin Socket | 3 | [Electronic Surplus : AUGAT - 716AG12D](https://www.electronicsurplus.com/augat-716ag12d-ic-socket-machined-16-pin-package-of-10) |
@@ -425,7 +425,162 @@ The nice thing about the above serial board is that it's a direct replacement of
 
 ## Cassette Interface Boards
 
-Coming soon
+IMAGE1
+
+The TTY cassette interface boards are used to connect the SCELBI to a tape reader. One board is used to write data from the SCELBI and the other is used to read data into the SCELBI. To use this interface, the monitor ROMS (60-63) and Cassette ROM (77) will be required. If you're using the TTY interface, you'll also need TTY ROM (76). The ROMs can be found [here](https://www.scelbi.com/software).
+
+### Parts
+
+The following parts are required for the enclosure. Parts for individual boards are listed below. You can find the parts layout in the manual that Mike Willegal created [here](https://www.willegal.net/blog/?p=8377).
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| Rubber Feet | 4 | [DigiKey](https://www.digikey.com/en/products/detail/3m/SJ-5523-BLACK/30833) |
+| Enclosure | 1 | [DigiKey](https://www.digikey.com/en/products/detail/bud-industries/CU-3009-A/387015) |
+| 22-Pin Edge Connector | 2 | [DigiKey](https://www.digikey.com/en/products/detail/edac-inc/306-022-500-102/107644) |
+| Bracket | 2 | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/1570/315578) |
+| Amphenol 78-S11 | 1 | [eBay](https://www.ebay.com/itm/172869587250) |
+| Amphenol 86-CP11 | 2 | [eBay](https://www.ebay.com/itm/400225551491) |
+| Red Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09739/7393680) |
+| Black Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09740/7393681) |
+| Hardware | N/A | Screws, bolts, etc. |
+
+I also used a block of wood to hold the boards in place at the other end of the edge connectors.
+
+#### Write Board
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 2 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html) |
+| 7475     | 2    | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
+| 7474     | 2 | [Jameco](https://www.jameco.com/z/7474-Major-Brands-IC-7474-DUAL-D-TYPE-FLIP-FLOP_50551.html) |
+| 7410     | 1 | [Jameco](https://www.jameco.com/z/7410-Major-Brands-IC-7410-Triple-3-Input-Positive-NAND-Gate_49189.html) |
+| 7402     | 1 | [Jameco](https://www.jameco.com/z/7402-Major-Brands-IC-7402-QUAD-2-INPUT-POSITIVE-NOR-GATE_49015.html) |
+| 74121    | 1 | [Jameco](https://www.jameco.com/z/74121-Major-Brands-IC-74121-MONOSTABLE-MULTIVIBRATOR_49322.html) |
+| 7496    | 1 | [eBay](https://www.ebay.com/itm/325305149765) |
+| 7493A   | 5 | [eBay](https://www.ebay.com/itm/266975565657) |
+| W117DIP-1 (relay) | 1 | [eBay](https://www.ebay.com/itm/285568508717) |
+| 330 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/RC04330EJT-Jameco-ValuePro-Resistor-Carbon-Film-330-Ohm-1-4-Watt-5-_690742.html) |
+| 1K Ohm Resistor | 2 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
+| 10K Ohm Resistor | 3 | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265) |
+| 47K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W473JRC-Jameco-ValuePro-Resistor-Carbon-Film-47k-Ohm-1-4-Watt-5-_691260.html) |
+| 100K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W104JRC-Jameco-ValuePro-Resistor-Carbon-Film-100k-Ohm-1-4-Watt-5-_691340.html) |
+| 10 uF Ele. Cap. | 2 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 6 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 0.47 uF Elc. Cap. | 1 | [eBay](https://www.ebay.com/itm/116113431795) |
+| 2N2222 Trans. | 1 | [DigiKey](https://www.digikey.com/en/products/detail/stmicroelectronics/2N2222/654412) |
+| 1N4148 Diode | 1 | [Jameco](https://www.jameco.com/z/1N4148-Fairchild-onsemi-Diode-1N4148-100V-200mA-10mA-If-Small-Signal-Switching-Bulk-_36038.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 3/4A 8AG Fuse | 1 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-1-1-2/264552) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+Note that 0.33 uF capacitor is excluded even though there is a footprint for it on the PCB.
+
+#### Read Board
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 1 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html) |
+| 7404     | 1 | [Jameco](https://www.jameco.com/z/7404-Major-Brands-IC-7404-Hex-Inverter-Six-Independent-Inverters-DIP-14_49040.html) |
+| 74121    | 1 | [Jameco](https://www.jameco.com/z/74121-Major-Brands-IC-74121-MONOSTABLE-MULTIVIBRATOR_49322.html) |
+| 72741 | 2 | [eBay](https://www.ebay.com/itm/176827041697) |
+| 560 Ohm Resistor | 2 | [Jameco](https://www.jameco.com/z/CF1-4W561JRC-Jameco-ValuePro-Resistor-Carbon-Film-560-Ohm-1-4-Watt-5-_690806.html) |
+| 1K Ohm Resistor | 4 | [Jameco](https://www.jameco.com/z/CF1-4W102JRC-Jameco-ValuePro-Resistor-Carbon-Film-1k-Ohm-1-4-Watt-5-_690865.html) |
+| 2.2K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W222JRC-Jameco-ValuePro-Resistor-Carbon-Film-2-2k-Ohm-1-4-Watt-5-_690945.html) |
+| 2.7K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W272JRC-Jameco-ValuePro-Resistor-Carbon-Film-2-7k-Ohm-1-4-Watt-5-_690961.html) |
+| 3.9K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W392JRC-Jameco-ValuePro-Resistor-Carbon-Film-3-9k-Ohm-1-4-Watt-5-_691008.html) |
+| 8.2K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W822JRC-Jameco-ValuePro-Resistor-Carbon-Film-8-2k-Ohm-1-4-Watt-5-_691083.html) |
+| 10K Ohm Resistor | 7 | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265) |
+| 22K Ohm Resistor | 2 | [Jameco](https://www.jameco.com/z/CF1-4W223JRC-Jameco-ValuePro-Resistor-Carbon-Film-22k-Ohm-1-4-Watt-5-_691180.html) |
+| 33K (~30K) Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/RC0433K0JT-Jameco-ValuePro-Resistor-Carbon-Film-33k-Ohm-1-4-Watt-5-_691227.html) |
+| 100K Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W104JRC-Jameco-ValuePro-Resistor-Carbon-Film-100k-Ohm-1-4-Watt-5-_691340.html) |
+| 10K Trimpot | 1 | [DigiKey](https://www.digikey.com/en/products/detail/bourns-inc/3006P-1-103LF/1087571) |
+| 10 uF Ele. Cap. | 2 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 3 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 330 pF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC330-50-Y5V-James-Electronics-Ceramic-Disc-Capacitor-330pF-50-VDC-10-4mm-Body-Diameter_2301487.html) |
+| 0.02 uF Disk Cap. | 3 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 0.01 uF Film Cap. | 2 | [eBay](https://www.ebay.com/itm/266895209515) |
+| 0.0068 uF Film Cap. | 1 | [eBay](https://www.ebay.com/itm/306503368522) |
+| 0.1 uF Film Cap. | 3 | [eBay](https://www.ebay.com/itm/266709449601) |
+| 0.047 uF Filk Cap. | 1 | [eBay](https://www.ebay.com/itm/383708949522) |
+| 2N2222 Trans. | 2 | [DigiKey](https://www.digikey.com/en/products/detail/stmicroelectronics/2N2222/654412) |
+| 2N2907 Trans. | 2 | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/2N2907/16560083) |
+| 5V LED | 1 | [Jameco](https://www.jameco.com/z/5WR4-Y-T-SB-Jameco-ValuePro-LED-Super-Bright-Red-Water-Clear-5mm-T-1-3-4-630nm-12000mcd_2274831.html) |
+| 1N4148 Diode | 4 | [Jameco](https://www.jameco.com/z/1N4148-Fairchild-onsemi-Diode-1N4148-100V-200mA-10mA-If-Small-Signal-Switching-Bulk-_36038.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 3/4A 8AG Fuse | 1 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-1-1-2/264552) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Connections
+
+Since there are two separate boards, there will be two edge connectors in the enclosure. The write board goes on the bottom and the read board goes on top. Wire up each edge connector to the external connections as outlined below.
+
+IMAGE
+
+#### Write Board
+
+| Edge Connection | External Connection | Notes |
+| ----------------|---------------------|-------|
+| A-A | +5V | |
+| A-C | GND, P3-11 | |
+| A-H | P1-10 | |
+| A-K | S1-5 | |
+| A-L | S1-7 | |
+| A-P | P2-7 | |
+| A-R | P1-8 | |
+| A-S | P1-7 | |
+| A-T | P1-9 | |
+| A-V | P1-4 | |
+| A-W | P1-3 | |
+| A-X | P1-2 | |
+| A-Y | P1-1 | |
+| A-Z | S1-2 | + side of jack; connect - to GND (S1-11) |
+
+#### Read Board
+
+| Edge Connection | External Connection | Notes |
+| ----------------|---------------------|-------|
+| A-A | +5V | |
+| A-C | GND | |
+| A-L | S1-1 | + side of jack |
+| A-J | S1-11 | - side of jack |
+| A-X | P2-8 | |
+| A-Z | P2-10 | |
+
+#### Jacks
+
+There are three jacks that connect to S1 - two are required and one is optional. *S1-1* and *S1-11* will connect to the headphone jack (3.5mm). *S1-2* and *S1-11* will connect to the microphone jack (3.5mm). The optional connection, *S1-5* and *S1-7*, connect to the REM (remote) jack (2.5mm). This remote jack is used to start and stop the cassette when reading/writing.
+
+The GND/- connection will connect to the outside of the jack.
+
+IMAGE
+
+#### Backplane Modifications
+
+The cassette interface uses ports INP3 and OUT3 (4th port from the right if looking from the top). Those two ports need to have pin 10 connected to the CPU SYNC signal. I don't believe the original assembly instructions specified this connection but the cassette interface boards require the SYNC signal which is expected on pin 10 of connector P1 and P2. The SYNC signal is located on XA02 B-A.
+
+IMAGE
+
+### Instructions
+
+Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+
+### Tuning
+
+The write board should work without any tuning, other than the microphone input volume on the tape readers side. Mike Willegal noted that the 0.02 uF capacitor, near the 330 ohm resistor, may need to be adjusted to 0.004 uF for proper operation.
+
+The read board will require some tuning by adjusting the 10K trimpot. I adjusted mine to approximately 6K ohm before I got it to read consistently. To make this easier, I drilled a hole in the enclosure, right in front of the trimpot so I could access it with a screw driver. On that note, you might want to drill a hole for the LED if you'd like, since it lights up when data is present during a read operation.
+
+### Bugs
+
+There is one bug on the write that will prevent the board from operating correctly. On the [original schematic](https://www.scelbi.com/images/blueprints/scelbi_i.jpg), Z1 has pin 7 connected to pin 13 (and other pins). Pin 7 of the 7475 is actually a DATA pin but it's treating it as an ENABLE pin since all other connected pins are the ENABLE pins.
+
+IMAGE
+
+This needs to be fixed to pin 6 (not pin 7) as pin 6 is the ENABLE pin. The PCBs that were created based on the schematic have this bug so they will need to be corrected by cutting the trace between pin 7 and pin 13 of Z1 and connecting pin 13 to pin 6 instead. This will be fixed in future PCBs but verify your PCB if you have one.
+
+IMAGE
 
 ## Keyboard Interface Board
 
