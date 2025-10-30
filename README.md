@@ -425,7 +425,9 @@ The nice thing about the above serial board is that it's a direct replacement of
 
 ## Cassette Interface Boards
 
-IMAGE1
+<img width="800" alt="Tape Interface" src="https://github.com/user-attachments/assets/e9be3663-39c5-4357-9c88-651779ae33f7" />
+
+<img width="800" alt="Tape PCBs" src="https://github.com/user-attachments/assets/8702cd7c-267e-4c43-a57f-9f5b4f0ce1be" />
 
 The TTY cassette interface boards are used to connect the SCELBI to a tape reader. One board is used to write data from the SCELBI and the other is used to read data into the SCELBI. To use this interface, the monitor ROMS (60-63) and Cassette ROM (77) will be required. If you're using the TTY interface, you'll also need TTY ROM (76). The ROMs can be found [here](https://www.scelbi.com/software).
 
@@ -516,7 +518,7 @@ Note that 0.33 uF capacitor is excluded even though there is a footprint for it 
 
 Since there are two separate boards, there will be two edge connectors in the enclosure. The write board goes on the bottom and the read board goes on top. Wire up each edge connector to the external connections as outlined below.
 
-IMAGE
+<img width="600" alt="Tape Edge Connectors" src="https://github.com/user-attachments/assets/bed258b7-488d-459e-bfa1-60820f777779" />
 
 #### Write Board
 
@@ -554,13 +556,13 @@ There are three jacks that connect to S1 - two are required and one is optional.
 
 The GND/- connection will connect to the outside of the jack.
 
-IMAGE
+<img width="400" alt="Tape Jacks" src="https://github.com/user-attachments/assets/e8cecd7a-122c-460a-861a-9affd144ca5f" />
 
 #### Backplane Modifications
 
 The cassette interface uses ports INP3 and OUT3 (4th port from the right if looking from the top). Those two ports need to have pin 10 connected to the CPU SYNC signal. I don't believe the original assembly instructions specified this connection but the cassette interface boards require the SYNC signal which is expected on pin 10 of connector P1 and P2. The SYNC signal is located on XA02 B-A.
 
-IMAGE
+<img width="600" alt="Tape Backplane Modifications" src="https://github.com/user-attachments/assets/533d40f4-260a-421e-99b2-0deaa2ec5395" />
 
 ### Instructions
 
@@ -576,11 +578,11 @@ The read board will require some tuning by adjusting the 10K trimpot. I adjusted
 
 There is one bug on the write that will prevent the board from operating correctly. On the [original schematic](https://www.scelbi.com/images/blueprints/scelbi_i.jpg), Z1 has pin 7 connected to pin 13 (and other pins). Pin 7 of the 7475 is actually a DATA pin but it's treating it as an ENABLE pin since all other connected pins are the ENABLE pins.
 
-IMAGE
+<img width="400" alt="Tape Write Schematic Bug" src="https://github.com/user-attachments/assets/c8a49294-793a-4a4d-9fb0-a68df85e30ea" />
 
 This needs to be fixed to pin 6 (not pin 7) as pin 6 is the ENABLE pin. The PCBs that were created based on the schematic have this bug so they will need to be corrected by cutting the trace between pin 7 and pin 13 of Z1 and connecting pin 13 to pin 6 instead. This will be fixed in future PCBs but verify your PCB if you have one.
 
-IMAGE
+<img width="400" alt="Tape Write Bug Fix" src="https://github.com/user-attachments/assets/6689364b-fcbe-452d-b397-ceeeb3d211ea" />
 
 ## Keyboard Interface Board
 
