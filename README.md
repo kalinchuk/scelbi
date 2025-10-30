@@ -449,6 +449,8 @@ The following parts are required for the enclosure. Parts for individual boards 
 
 I also used a block of wood to hold the boards in place at the other end of the edge connectors.
 
+<img width="400" alt="Tape Block of Wood" src="https://github.com/user-attachments/assets/e220ca63-ca73-492e-858c-d644e863b8ce" />
+
 #### Write Board
 
 | Part     | Quantity | Source  |
