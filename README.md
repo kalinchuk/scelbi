@@ -468,7 +468,7 @@ I also used a block of wood to hold the boards in place at the other end of the 
 | 10 uF Ele. Cap. | 2 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
 | 0.1 uF Disk Cap. | 6 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
 | 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
-| 0.47 uF Elc. Cap. | 1 | [eBay](https://www.ebay.com/itm/116113431795) |
+| 0.47 uF Ele. Cap. | 1 | [eBay](https://www.ebay.com/itm/116113431795) |
 | 2N2222 Trans. | 1 | [DigiKey](https://www.digikey.com/en/products/detail/stmicroelectronics/2N2222/654412) |
 | 1N4148 Diode | 1 | [Jameco](https://www.jameco.com/z/1N4148-Fairchild-onsemi-Diode-1N4148-100V-200mA-10mA-If-Small-Signal-Switching-Bulk-_36038.html) |
 | 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
