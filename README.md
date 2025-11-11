@@ -661,7 +661,7 @@ I also used a block of wood to hold the boards in place at the other end of the 
 
 ### Instructions
 
-Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=eHSVCNvwl6s) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## Video Board
 
