@@ -588,9 +588,9 @@ This needs to be fixed to pin 6 (not pin 7) as pin 6 is the ENABLE pin. The PCBs
 
 ## Keyboard Interface Board
 
-IMAGE
+<img width="800" alt="KBD Interface" src="https://github.com/user-attachments/assets/e0df291a-8fe5-4970-9475-c6dd19e01945"/>
 
-IMAGE
+<img width="800" alt="KBD Enclosure" src="https://github.com/user-attachments/assets/b563540d-4693-4fb7-8ad9-938314174be0"/>
 
 The KBD interface board is used to connect the SCELBI to a keyboard input. The keyboard is used in conjunction with the oscilloscope board (or a similar form of output). To use this interface, the monitor ROMS (60-63) and KBD/Oscilloscope ROM (76) will be required. The 76 slot is shared with the TTY ROM as well so you can only have either the KBD/Oscilloscope or the TTY ROM in use at the same time. The ROMs can be found [here](https://www.scelbi.com/software).
 
@@ -634,7 +634,7 @@ I also used a block of wood to hold the boards in place at the other end of the 
 
 ### Connections
 
-IMAGE
+IMAGE TODO
 
 | Edge Connection | External Connection |
 | ----------------|---------------------|
