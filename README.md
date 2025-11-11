@@ -634,7 +634,7 @@ I also used a block of wood to hold the boards in place at the other end of the 
 
 ### Connections
 
-IMAGE TODO
+<img width="400" alt="KBD Connections" src="https://github.com/user-attachments/assets/9151122d-3dee-4229-bef0-ddff993c397b"/>
 
 | Edge Connection | External Connection |
 | ----------------|---------------------|
