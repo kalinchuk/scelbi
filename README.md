@@ -640,7 +640,7 @@ I also used a block of wood to hold the boards in place at the other end of the 
 | ----------------|---------------------|
 | A-A | +5V |
 | A-B | S1-10 |
-| A-C | GND, S1-11 |
+| A-C | GND, S1-11, P1-11 |
 | A-F | S1-1 |
 | A-H | S1-2 |
 | A-J | S1-3 |
