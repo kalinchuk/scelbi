@@ -568,7 +568,7 @@ The cassette interface uses ports INP3 and OUT3 (4th port from the right if look
 
 ### Instructions
 
-Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=ZYSLVMgtkdA) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ### Tuning
 
@@ -588,7 +588,80 @@ This needs to be fixed to pin 6 (not pin 7) as pin 6 is the ENABLE pin. The PCBs
 
 ## Keyboard Interface Board
 
-Coming soon
+IMAGE
+
+IMAGE
+
+The KBD interface board is used to connect the SCELBI to a keyboard input. The keyboard is used in conjunction with the oscilloscope board (or a similar form of output). To use this interface, the monitor ROMS (60-63) and KBD/Oscilloscope ROM (76) will be required. The 76 slot is shared with the TTY ROM as well so you can only have either the KBD/Oscilloscope or the TTY ROM in use at the same time. The ROMs can be found [here](https://www.scelbi.com/software).
+
+### Parts
+
+The following parts are required for the enclosure. Parts for the PCB are listed below. You can find the parts layout in the manual that Mike Willegal created [here](https://www.willegal.net/blog/?p=8377).
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| Rubber Feet | 4 | [DigiKey](https://www.digikey.com/en/products/detail/3m/SJ-5523-BLACK/30833) |
+| Enclosure | 1 | [DigiKey](https://www.digikey.com/en/products/detail/bud-industries/CU-3009-A/387015) |
+| 22-Pin Edge Connector | 2 | [DigiKey](https://www.digikey.com/en/products/detail/edac-inc/306-022-500-102/107644) |
+| Bracket | 2 | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/1570/315578) |
+| Amphenol 78-S11 | 1 | [eBay](https://www.ebay.com/itm/172869587250) |
+| Amphenol 86-CP11 | 2 | [eBay](https://www.ebay.com/itm/400225551491) |
+| Red Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09739/7393680) |
+| Black Binding Post | 1 | [DigiKey](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-09740/7393681) |
+| Hardware | N/A | Screws, bolts, etc. |
+
+I also used a block of wood to hold the boards in place at the other end of the edge connectors. This is similar to what I did with the cassette interface.
+
+#### PCB
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| 7400     | 1 | [Jameco](https://www.jameco.com/z/7400-Major-Brands-IC-7400-QUAD-2-INPUT-POSITIVE-NAND-GATE_48979.html) |
+| 7404     | 2 (4) | [Jameco](https://www.jameco.com/z/7404-Major-Brands-IC-7404-Hex-Inverter-Six-Independent-Inverters-DIP-14_49040.html) |
+| 7475     | 2    | [Jameco](https://www.jameco.com/z/SN7475N-Texas-Instruments-IC-7475-4-BIT-BI-STABLE-LATCH_50577.html) |
+| 7474     | 1 | [Jameco](https://www.jameco.com/z/7474-Major-Brands-IC-7474-DUAL-D-TYPE-FLIP-FLOP_50551.html) |
+| 7410     | 1 | [Jameco](https://www.jameco.com/z/7410-Major-Brands-IC-7410-Triple-3-Input-Positive-NAND-Gate_49189.html) |
+| 270 Ohm Resistor | 1 | [Jameco](https://www.jameco.com/z/CF1-4W271JRC-Jameco-ValuePro-Resistor-Carbon-Film-270-Ohm-1-4-Watt-5-_690726.html) |
+| 10K Ohm Resistor | 2 | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265) |
+| 1 uF Ele. Cap. | 2 | [Jameco](https://www.jameco.com/z/A1-50-Jameco-ValuePro-1-uF-50-Volt-Axial-Capacitor_10866.html) |
+| 10 uF Ele. Cap. | 2 | [Jameco](https://www.jameco.com/z/106TTA100M-JVP-Jameco-ValuePro-10-uF-100V-Axial-Electrolytic-Capacitor-20-_2341471.html) |
+| 0.1 uF Disk Cap. | 2 | [Jameco](https://www.jameco.com/z/DC-1-25-Y5V-James-Electronics-Ceramic-Disc-Capacitor-0-1uF-25-VDC-20-80-6mm-Body-Diameter_2300983.html) |
+| 0.02 uF Disk Cap. | 1 | [Jameco](https://www.jameco.com/z/DC-02-50-Z5V-James-Electronics-Ceramic-Disc-Capacitor-0-02uF-50-VDC-80-20-7mm-Body-Diameter_2301935.html) |
+| 1N4148 Diode | 2 | [Jameco](https://www.jameco.com/z/1N4148-Fairchild-onsemi-Diode-1N4148-100V-200mA-10mA-If-Small-Signal-Switching-Bulk-_36038.html) |
+| 6.2V Zener | 1 | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/1N5341BRLG/918032) |
+| 1/5A 8AG Fuse | 1 | [DigiKey](https://www.digikey.com/en/products/detail/eaton-electronics-division/BK-AGX-1-2/264554) |
+| Fuse Clip | 2 | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/01220088Z/2498891) |
+
+### Connections
+
+IMAGE
+
+| Edge Connection | External Connection |
+| ----------------|---------------------|
+| A-A | +5V |
+| A-B | S1-10 |
+| A-C | GND, S1-11 |
+| A-F | S1-1 |
+| A-H | S1-2 |
+| A-J | S1-3 |
+| A-K | S1-4 |
+| A-L | S1-5 |
+| A-M | S1-6 |
+| A-N | S1-7 |
+| A-P | S1-8 |
+| A-R | P2-1 |
+| A-S | P2-2 |
+| A-T | P2-3 |
+| A-U | P2-4 |
+| A-V | P2-5 |
+| A-W | P2-6 |
+| A-X | P2-7 |
+| A-Y | P2-8 |
+| A-Z | P1-9 |
+
+### Instructions
+
+Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## Video Board
 
