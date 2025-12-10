@@ -1,7 +1,4 @@
-- [SCELBI-8B Minicomputer](#scelbi-8b-minicomputer)
   * [PCBs](#pcbs)
-    + [Gerbers](#gerbers)
-    + [Front Panel](#front-panel)
   * [Power Supply](#power-supply)
   * [Chassis](#chassis)
   * [Front Panel Board](#front-panel-board)
