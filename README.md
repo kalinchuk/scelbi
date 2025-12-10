@@ -686,6 +686,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=eHSVCNvwl6s) for de
 The Datanetics keyboard is a good keyboard to use with the SCELBI computer. This keyboard is used with the Apple I as well. You can find additional details about this keyboard replica at [https://github.com/schlae/replica-datanetics](https://github.com/schlae/replica-datanetics).
 
 There are two variants of PCBs available for sale at kalinchuk.com:
+
 [Original variant with encoder and original keyswitches](https://www.kalinchuk.com/product-page/datanetics-rev-b-keyboard-pcb)
 
 [Modern variant with MX keyswitches and microcontroller](https://www.kalinchuk.com/product-page/datanetics-rev-b-keyboard-pcb-modern)
@@ -699,6 +700,7 @@ The parts list can be found [here](https://github.com/schlae/replica-datanetics)
 Most of the parts can be sourced for many of the online hobby stores or eBay so I won't include them here but you can find key components in the list below.
 
 | Part     | Quantity | Source |
+| ----------------|---------------------|---|
 | ATMEGA644 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA644-20PU/1008673) |
 | Key Caps | 1 Set | [FK Caps](https://fkcaps.com/custom/NSGFBC) - modify as needed |
 | Space Key Stabilizer | 1 | [mechanicalkeyboards.com](https://mechanicalkeyboards.com/products/durock-stabilizer-pcb-mount-screw-in-spacebar) - this one is 7U so make sure your space key is the same size |
