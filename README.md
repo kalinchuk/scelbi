@@ -663,6 +663,46 @@ I also used a block of wood to hold the boards in place at the other end of the 
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=eHSVCNvwl6s) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
+## Datanetics Keyboard
+
+<img width="800" alt="Datanetics Keyboard" src="https://github.com/user-attachments/assets/464ae6f6-4d45-4df2-8532-1c6c17d54d24"/>
+
+The Datanetics keyboard is a good keyboard to use with the SCELBI computer. This keyboard is used with the Apple I as well. You can find additional details about this keyboard replica at [https://github.com/schlae/replica-datanetics](https://github.com/schlae/replica-datanetics).
+
+There are two variants of PCBs available for sale at kalinchuk.com:
+[Original variant with encoder and original keyswitches](https://www.kalinchuk.com/product-page/datanetics-rev-b-keyboard-pcb)
+[Modern variant with MX keyswitches and microcontroller](https://www.kalinchuk.com/product-page/datanetics-rev-b-keyboard-pcb-modern)
+
+I decided to build the modern variant since original keyswitches can be hard to find.
+
+### Parts
+
+The parts list can be found [here](https://github.com/schlae/replica-datanetics).
+
+Most of the parts can be sourced for many of the online hobby stores or eBay so I won't include them here but you can find key components in the list below.
+
+| Part     | Quantity | Source |
+| ATMEGA644 | 1 | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA644-20PU/1008673) |
+| Key Caps | 1 Set | [FK Caps](https://fkcaps.com/custom/NSGFBC) - modify as needed |
+| Space Key Stabilizer | 1 | [mechanicalkeyboards.com](https://mechanicalkeyboards.com/products/durock-stabilizer-pcb-mount-screw-in-spacebar) - this one is 7U so make sure your space key is the same size |
+| MX Switches | ~60 | [Amazon](https://www.amazon.com/dp/B0BBQ5QBBK) - 110 quantity |
+
+### Programming the Microcontroller
+
+The ATMEGA644P needs to be programmed in order to work correctly as an encoder for the keyboard. A programmer can be built using basic components and an Arduino. In my case, I used the [XGecu T48 programmer](https://www.amazon.com/XGecu-TL866-3G-Programmer-Support-Replacement/dp/B0B592HZ1K) to program mine and this route is much simpler. Download the binary file from the [GitHub repo](https://github.com/schlae/replica-datanetics) and load it into the programmers software. Next, go to the "Config" tab on bottom and select the correct fuses by enabling the checkboxes to get the matching hex:
+
+```
+lfuse = 0x62
+hfuse = 0xdd
+efuse = 0xfc
+```
+
+Then press "Program". This will program the microcontroller in just a few seconds.
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions.
+
 ## Video Board
 
 Coming soon
