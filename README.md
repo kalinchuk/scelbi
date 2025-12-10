@@ -697,7 +697,7 @@ I decided to build the modern variant since original key switches can be hard to
 
 The parts list can be found [here](https://github.com/schlae/replica-datanetics).
 
-Most of the parts can be sourced for many of the online hobby stores or eBay so I won't include them here but you can find key components in the list below.
+Most of the parts can be sourced from many of the online hobby stores or eBay so I won't include them here but you can find key components in the list below.
 
 | Part     | Quantity | Source |
 | ----------------|---------------------|---|
@@ -720,7 +720,7 @@ Then press "Program". This will program the microcontroller in just a few second
 
 ### Instructions
 
-Refer to the [YouTube video]() for detailed assembly instructions.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=I_ZSEskP_MM) for detailed assembly instructions.
 
 ## Video Board
 
