@@ -722,6 +722,39 @@ Then press "Program". This will program the microcontroller in just a few second
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=I_ZSEskP_MM) for detailed assembly instructions.
 
+## SCELBI Keyboard
+
+[IMAGE]
+
+The SCELBI Monitor Editor Assembler can only support a TTY interface or an oscilloscope/keyboard. The following is the Datanetics keyboard from above inserted into a Hammond 1444-1372 enclosure with an Amphenol connector to connect to the SCELBI Keyboard Interface.
+
+### Parts
+
+The following parts are required for the enclosure. Parts for the PCB are listed below.
+
+| Part     | Quantity | Source  |
+| -------- | ---- | ------------|
+| Rubber Feet | 4 | [DigiKey](https://www.digikey.com/en/products/detail/3m/SJ-5523-BLACK/30833) |
+| Enclosure | 1 | [DigiKey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1444-1372/3869006) |
+| Enclosure Bottom | 1 | [DigiKey](https://www.digikey.com/en/products/detail/hammond-manufacturing/1434-137/3868973) |
+| 15-Position 30-Pin Edge Connector | 1 | [eBay](https://www.ebay.com/itm/356752053183) |
+| Amphenol 86-CP11 | 1 | [eBay](https://www.ebay.com/itm/400225551491) |
+| Hardware | N/A | Standoffs, washers, etc. |
+
+The edge connector is optional and the wires can be directly soldered to the PCB.
+
+### Connections
+
+Refer to the [Replica Datanetics GitHub](https://github.com/schlae/replica-datanetics?tab=readme-ov-file#connecting-to-an-apple-1) for the connections coming from the keyboard. Then reference the [Keyboard Interface connections] to determine how to wire up the keyboard to the Amphenol connector.
+
+### ROM
+
+I could not find the oscilloscope/keyboard ROM on [scelbi.com](scelbi.com) but someone on the [VCF Forum](https://forum.vcfed.org/index.php?threads/scelbi-data-bus-oddities-and-debug.1253384/page-6#post-1452999) posted the Intel Hex and the disassembled source for it which I used in my setup. I'm also including it [here]() for reference - just to make sure it's archived.
+
+### Instructions
+
+Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+
 ## Video Board
 
 Coming soon
