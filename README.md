@@ -12,6 +12,7 @@
   * [Cassette Interface Boards](#cassette-interface-boards)
   * [Keyboard Interface Board](#keyboard-interface-board)
   * [Datanetics Keyboard](#datanetics-keyboard)
+  * [SCELBI Keyboard](#scelbi-keyboard)
   * [Video Board](#video-board)
 
 # SCELBI-8B Minicomputer
@@ -749,7 +750,7 @@ Refer to the [Replica Datanetics GitHub](https://github.com/schlae/replica-datan
 
 ### ROM
 
-I could not find the oscilloscope/keyboard ROM on [scelbi.com](www.scelbi.com) but someone on the [VCF Forum](https://forum.vcfed.org/index.php?threads/scelbi-data-bus-oddities-and-debug.1253384/page-6#post-1452999) posted the Intel Hex and the disassembled source for it which I used in my setup. I'm also including it [here](software/P76-OSCILLOSCOPE.zip) for reference - just to make sure it's archived.
+I could not find the oscilloscope/keyboard ROM on [scelbi.com](https://www.scelbi.com) but someone on the [VCF Forum](https://forum.vcfed.org/index.php?threads/scelbi-data-bus-oddities-and-debug.1253384/page-6#post-1452999) posted the Intel Hex and the disassembled source for it which I used in my setup. I'm also including it [here](software/P76-OSCILLOSCOPE.zip) for reference - just to make sure it's archived.
 
 ### Instructions
 
