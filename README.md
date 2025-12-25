@@ -725,7 +725,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=I_ZSEskP_MM) for de
 
 ## SCELBI Keyboard
 
-[IMAGE]
+<img width="800" alt="SCELBI KBD" src="https://github.com/user-attachments/assets/48912704-75b7-4dfb-8e8d-a4b900c5b3f1"/>
 
 The SCELBI Monitor Editor Assembler can only support a TTY interface or an oscilloscope/keyboard. The following is the Datanetics keyboard from above inserted into a Hammond 1444-1372 enclosure with an Amphenol connector to connect to the SCELBI Keyboard Interface.
 
