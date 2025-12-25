@@ -758,7 +758,7 @@ I could not find the oscilloscope/keyboard ROM on [scelbi.com](https://www.scelb
 
 ### Instructions
 
-Refer to the [YouTube video](TODO) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
+Refer to the [YouTube video](https://www.youtube.com/watch?v=0hJmwrMWP_w) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
 ## Video Board
 
