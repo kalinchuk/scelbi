@@ -29,7 +29,7 @@ The PCBs were re-created by tracing the original PCBs in KiCAD. PCB sets are ava
 
 ### Gerbers
 
-Coming soon
+You can find the Gerber files for all the PCBs under the "gerbers" directory.
 
 ### Front Panel
 
@@ -374,6 +374,8 @@ I [assembled a 1702 EPROM programmer](https://www.youtube.com/watch?v=S2KC_Ulbl8
 <img width="800" alt="TTY PCB" src="https://github.com/user-attachments/assets/586f3cc9-bf83-4516-9e05-781122459b16"/>
 
 The TTY interface board is used to connect the SCELBI to a teletype. To use this board, the monitor ROMS (60-63), TTY ROM (76) and Cassette ROM (77) will be required.
+
+Refer to [www.kalinchuk.com]((https://www.kalinchuk.com/) if you're interested in a Serial Interface PCB for the SCELBI.
 
 ### Parts
 
@@ -727,7 +729,7 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=I_ZSEskP_MM) for de
 
 <img width="800" alt="SCELBI KBD" src="https://github.com/user-attachments/assets/48912704-75b7-4dfb-8e8d-a4b900c5b3f1"/>
 
-The SCELBI Monitor Editor Assembler can only support a TTY interface or an oscilloscope/keyboard. The following is the Datanetics keyboard from above inserted into a Hammond 1444-1372 enclosure with an Amphenol connector to connect to the SCELBI Keyboard Interface.
+The SCELBI Monitor Editor Assembler (MEA) can only support a TTY interface or an oscilloscope/keyboard. The following is the Datanetics keyboard from above inserted into a Hammond 1444-1372 enclosure with an Amphenol connector to connect to the SCELBI Keyboard Interface.
 
 ### Parts
 
@@ -760,6 +762,39 @@ I could not find the oscilloscope/keyboard ROM on [scelbi.com](https://www.scelb
 
 Refer to the [YouTube video](https://www.youtube.com/watch?v=0hJmwrMWP_w) for detailed assembly instructions. Reference the [assembly manual](literature/SCELBI-8BAssemblyInstructions.pdf) for the parts layout and additional details.
 
-## Video Board
+## Video Board (SCELBI-2106)
 
-Coming soon
+IMAGE
+
+The SCELBI originally only supported a TTY interface or an oscilloscope/keyboard interface for interacting with the computer. The following is a video board designed to work with the SCELBI. This is a Digital Group video design with some additions to make it SCELBI-compatible.
+
+IMAGE
+
+### Parts
+
+Refer to the official [SCELBI-2106 User's Guide](literature/SCELBI-2106Guide.pdf) for the parts list and parts layout.
+
+### Connections
+
+Refer to the official [SCELBI-2106 User's Guide](literature/SCELBI-2106Guide.pdf) for all the necessary connections.
+
+### ROM
+
+To try out this video board, burn [CMON](software/CMON.hex) and place it on page 076 of the ROM board. Refer to the [CMON source](software/CMON.asm) for the I/O connections.
+
+Can this video board be used with the SCELBI Monitor Editor Assembler (MEA)? Yes it can! The original oscilloscope/keyboard ROM will not work since it's designed for an oscilloscope display. Because of this, I designed a brand new ROM that replaces the original TTY/oscilloscope ROM (ROM 76) and works out of the box. Burn the [P76-DG/KBD](software/p76-DG-KBD.hex) Intel HEX on a ROM chip and insert it into position 76 of the ROM board. Refer to the [P76-DG/KBD source](software/p76-DG-KBD.asm) for the I/O connections.
+
+I/O Ports:
+```
+KBD:    EQU   4
+ACK:    EQU   12
+CRT:    EQU   15
+```
+
+The P76-DG/KBD requires this video board and the Datanetics keyboard from above but any compatible keyboard will work. In my case, I had to install Z1 and Z4 to invert the keyboard data signal. I also had to cut the trace between Z7 pin 12 and Z8 pin 5 of the KBD Interface and connect the KBD strobe directly to Z8 pin 5.
+
+IMAGE
+
+### Instructions
+
+Refer to the [YouTube video]() for detailed assembly instructions and testing but the official [SCELBI-2106 User's Guide](literature/SCELBI-2106Guide.pdf) contains the most up-to-date instructions.
