@@ -13,7 +13,7 @@
   * [Keyboard Interface Board](#keyboard-interface-board)
   * [Datanetics Keyboard](#datanetics-keyboard)
   * [SCELBI Keyboard](#scelbi-keyboard)
-  * [Video Board](#video-board)
+  * [Video Board](#video-board-scelbi-2106)
 
 # SCELBI-8B Minicomputer
 
@@ -782,7 +782,7 @@ Refer to the official [SCELBI-2106 User's Guide](literature/SCELBI-2106Guide.pdf
 
 To try out this video board, burn [CMON](software/CMON.hex) and place it on page 076 of the ROM board. Refer to the [CMON source](software/CMON.asm) for the I/O connections.
 
-Can this video board be used with the SCELBI Monitor Editor Assembler (MEA)? Yes it can! The original oscilloscope/keyboard ROM will not work since it's designed for an oscilloscope display. Because of this, I designed a brand new ROM that replaces the original TTY/oscilloscope ROM (ROM 76) and works out of the box. Burn the [P76-DG/KBD](software/p76-DG-KBD.hex) Intel HEX on a ROM chip and insert it into position 76 of the ROM board. Refer to the [P76-DG/KBD source](software/p76-DG-KBD.asm) for the I/O connections.
+Can this video board be used with the SCELBI Monitor Editor Assembler (MEA)? Yes it can! The original oscilloscope/keyboard ROM will not work since it's designed for an oscilloscope display. Because of this, I designed a brand new ROM that replaces the original TTY/oscilloscope ROM (ROM 76) and works out of the box. Burn the [P76-DG/KBD](software/P76-DG-KBD.hex) Intel HEX on a ROM chip and insert it into position 76 of the ROM board. Refer to the [P76-DG/KBD source](software/P76-DG-KBD.asm) for the I/O connections.
 
 I/O Ports:
 ```
@@ -791,7 +791,7 @@ ACK:    EQU   12
 CRT:    EQU   15
 ```
 
-The P76-DG/KBD requires this video board and the Datanetics keyboard from above but any compatible keyboard will work. In my case, I had to install Z1 and Z4 to invert the keyboard data signal. I also had to cut the trace between Z7 pin 12 and Z8 pin 5 of the KBD Interface and connect the KBD strobe directly to Z8 pin 5.
+The P76-DG/KBD ROM requires this video board and the Datanetics keyboard from above but any compatible keyboard will work. In my case, I had to install Z1 and Z4 to invert the keyboard data signal. I also had to cut the trace between Z7 pin 12 and Z8 pin 5 of the KBD Interface and connect the KBD strobe directly to Z8 pin 5.
 
 IMAGE
 
