@@ -764,11 +764,13 @@ Refer to the [YouTube video](https://www.youtube.com/watch?v=0hJmwrMWP_w) for de
 
 ## Video Board (SCELBI-2106)
 
-IMAGE
+<img width="800" alt="Video PCB" src="https://github.com/user-attachments/assets/ccabc5ee-5842-4b0e-ba64-01a6ea86f48b" />
 
 The SCELBI originally only supported a TTY interface or an oscilloscope/keyboard interface for interacting with the computer. The following is a video board designed to work with the SCELBI. This is a Digital Group video design with some additions to make it SCELBI-compatible.
 
-IMAGE
+<img width="800" alt="Video Enclosure" src="https://github.com/user-attachments/assets/48c5d198-4b9b-4571-b854-0cfde46b18e1" />
+
+<img width="800" alt="Video Enclosure Connections" src="https://github.com/user-attachments/assets/3b2c0635-b50e-408f-9821-625b0cb68f15" />
 
 ### Parts
 
@@ -793,7 +795,7 @@ CRT:    EQU   15
 
 The P76-DG/KBD ROM requires this video board and the Datanetics keyboard from above but any compatible keyboard will work. In my case, I had to install Z1 and Z4 to invert the keyboard data signal. I also had to cut the trace between Z7 pin 12 and Z8 pin 5 of the KBD Interface and connect the KBD strobe directly to Z8 pin 5.
 
-IMAGE
+<img width="800" alt="SCELBI KBD Modification" src="https://github.com/user-attachments/assets/d7f6cabb-59ca-49e7-aa64-f975de8ddcb4" />
 
 ### Instructions
 
